@@ -1,6 +1,4 @@
-x,y
-Photon,Emission
-energy_[keV],intensity_[%]
+Photon_Energy_Kev,Emission_intensity_[%]
 304.0,0.0259
 304.43,0.034
 333.37,0.064
