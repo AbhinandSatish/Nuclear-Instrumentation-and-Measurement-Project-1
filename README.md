@@ -26,7 +26,7 @@ The goal is to determine the thickness required to reduce the total photon count
 
 - The **initial intensity** is calculated using the emission intensity and geometric efficiency:
   
-  \[ \epsilon_{geo} = \frac{\Omega}{4\pi} \]
+$$ \epsilon_{geo} = \frac{\Omega}{4\pi} $$
   
   where \( \Omega \) is calculated based on detector distance and geometry.
 
