@@ -16,19 +16,19 @@ The goal is to determine the thickness required to reduce the total photon count
 ## Methodology
 - The intensity of photons reaching the detector is modeled using the attenuation equation:
   
-  \[ I = I_0 e^{-\mu t} \]
+  $$\[ I = I_0 e^{-\mu t} \]$$
   
   where:
-  - \( I \) = Transmitted intensity
-  - \( I_0 \) = Initial intensity
-  - \( \mu \) = Linear attenuation coefficient (from NIST data)
-  - \( t \) = Shielding thickness
+  - $$\( I \)$$ = Transmitted intensity
+  - $$\( I_0 \)$$ = Initial intensity
+  - $$\( \mu \)$$ = Linear attenuation coefficient (from NIST data)
+  - $$\( t \)$$ = Shielding thickness
 
 - The **initial intensity** is calculated using the emission intensity and geometric efficiency:
   
 $$ \epsilon_{geo} = \frac{\Omega}{4\pi} $$
   
-  where \( \Omega \) is calculated based on detector distance and geometry.
+  where $$\( \Omega \)$$ is calculated based on detector distance and geometry.
 
 - Using **NIST attenuation data**, the required thickness is iteratively determined for Pb and Al.
 
