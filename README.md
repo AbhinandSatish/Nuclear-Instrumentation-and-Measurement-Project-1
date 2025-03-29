@@ -74,5 +74,4 @@ pip install numpy scipy matplotlib pandas
 - `NIM Project 1 Report.pdf` - Full project report.
 - `7314374.pdf` - Original project description.
 
-For any questions, refer to the project documentation or contact the project author.
 
