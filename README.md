@@ -4,6 +4,7 @@
 This project involves determining the required shielding thickness for a mixed photon irradiation source to ensure accurate detector readings. The calculations are performed using Python to model attenuation for two different shielding materials: Lead (Pb) and Aluminum (Al).
 
 The goal is to determine the thickness required to reduce the total photon count to **1 x 10^6 ± 1 x 10^5 counts per second** at different detector distances.
+The full report can be seen in the document [NIM Project 1 Report.pdf](./NIM%20Project%201%20Report.pdf). The code can be found in the Jupyter Notebook file [project1.ipynb](./project1.ipynb). 
 
 ## Assumptions
 1. The radioisotope is a **point source**.
